@@ -76,7 +76,7 @@ struct ContentView: View {
                 }) {
                     Text("÷")
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
-                        .background(Color.orange)
+                        .background(Color.blue)
                         .border(Color.black, width: 3.0)
                 }
             }
@@ -167,13 +167,13 @@ struct ContentView: View {
                 }) {
                     Text("x")
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
-                        .background(Color.orange)
+                        .background(Color.blue)
                         .border(Color.black, width: 3.0)
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .foregroundColor(.white)
-            .background(Color.blue)
+            .background(Color.purple)
             .border(Color.black, width: 3.0)
             
             HStack (spacing: 0.0) {
@@ -255,13 +255,13 @@ struct ContentView: View {
                 }) {
                     Text("-")
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
-                        .background(Color.orange)
+                        .background(Color.blue)
                         .border(Color.black, width: 3.0)
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .foregroundColor(.white)
-            .background(Color.blue)
+            .background(Color.purple)
             .border(Color.black, width: 3.0)
             
             HStack (spacing: 0.0) {
@@ -343,13 +343,13 @@ struct ContentView: View {
                 }) {
                     Text("+")
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
-                        .background(Color.orange)
+                        .background(Color.blue)
                         .border(Color.black, width: 3.0)
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .foregroundColor(.white)
-            .background(Color.blue)
+            .background(Color.purple)
             .border(Color.black, width: 3.0)
             
             HStack (spacing: 0.0) {
@@ -408,14 +408,14 @@ struct ContentView: View {
                     }) {
                         Text("=")
                             .frame(maxWidth: .infinity, maxHeight: .infinity)
-                            .background(Color.orange)
+                            .background(Color.blue)
                             .border(Color.black, width: 3.0)
                     }
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .foregroundColor(.white)
-            .background(Color.blue)
+            .background(Color.purple)
             .border(Color.black, width: 3.0)
             
         }
