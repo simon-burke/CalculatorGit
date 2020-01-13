@@ -15,6 +15,7 @@
 		F1D9702523CD2F1E00EAAAB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D9702323CD2F1E00EAAAB5 /* LaunchScreen.storyboard */; };
 		F1D9703023CD2F1E00EAAAB5 /* CalculatorGitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D9702F23CD2F1E00EAAAB5 /* CalculatorGitTests.swift */; };
 		F1D9703B23CD2F1E00EAAAB5 /* CalculatorGitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D9703A23CD2F1E00EAAAB5 /* CalculatorGitUITests.swift */; };
+		F1D9704923CD2F3900EAAAB5 /* Calc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D9704823CD2F3900EAAAB5 /* Calc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F1D9703623CD2F1E00EAAAB5 /* CalculatorGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D9703A23CD2F1E00EAAAB5 /* CalculatorGitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorGitUITests.swift; sourceTree = "<group>"; };
 		F1D9703C23CD2F1E00EAAAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D9704823CD2F3900EAAAB5 /* Calc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		F1D9700C23CD2F1900EAAAB5 = {
 			isa = PBXGroup;
 			children = (
+				F1D9704823CD2F3900EAAAB5 /* Calc.swift */,
 				F1D9701723CD2F1900EAAAB5 /* CalculatorGit */,
 				F1D9702E23CD2F1E00EAAAB5 /* CalculatorGitTests */,
 				F1D9703923CD2F1E00EAAAB5 /* CalculatorGitUITests */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D9704923CD2F3900EAAAB5 /* Calc.swift in Sources */,
 				F1D9701923CD2F1900EAAAB5 /* AppDelegate.swift in Sources */,
 				F1D9701B23CD2F1900EAAAB5 /* SceneDelegate.swift in Sources */,
 				F1D9701D23CD2F1900EAAAB5 /* ContentView.swift in Sources */,
