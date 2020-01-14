@@ -11,6 +11,8 @@ import SwiftUI
 struct ContentView: View {
     @State var calc = Calc(display: "0")
     
+    let getForked = "charlieHeyman"
+    
     var body: some View {
         
         //Build VStack of Hstacks
